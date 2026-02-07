@@ -7,10 +7,7 @@ from app.loader import load_data
 from app.reports import REPORTS
 
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='[%(levelname)s] %(message)s'
-)
+logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 
 
 def main() -> None:

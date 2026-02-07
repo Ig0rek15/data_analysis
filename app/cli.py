@@ -15,14 +15,10 @@ def parse_args() -> Tuple[List[str], str]:
         '--files',
         nargs='+',
         required=True,
-        help='Пути к CSV-файлам с экономическими данными'
+        help='Пути к CSV-файлам с экономическими данными',
     )
 
-    parser.add_argument(
-        '--report',
-        required=True,
-        help='Название отчёта'
-    )
+    parser.add_argument('--report', required=True, help='Название отчёта')
 
     args = parser.parse_args()
     return args.files, args.report
