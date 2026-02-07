@@ -16,6 +16,3 @@ def load_data(files: List[str]) -> List[Dict[str, str]]:
                 rows.append(row)
 
     return rows
-
-
-# print(*load_data(['data/economic1.csv', 'data/economic2.csv']), sep='\n')
