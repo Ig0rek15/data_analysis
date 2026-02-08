@@ -13,7 +13,7 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 
 # запуск
-python main.py --files data1.csv data2.csv --report average-gdp
+python main.py --files data/economic1.csv data/economic2.csv --report average-gdp
 
 # запуск тестов (покрытие 78%)
 pytest
